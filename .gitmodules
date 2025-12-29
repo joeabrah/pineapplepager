@@ -1,0 +1,3 @@
+[submodule "pager_themes"]
+	path = pager_themes
+	url = https://github.com/joeabrah/pager_themes
