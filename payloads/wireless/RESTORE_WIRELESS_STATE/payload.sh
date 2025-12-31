@@ -1,4 +1,5 @@
 #!/bin/bash
+# This payload script restores all interfaces on the device
 
 # Enable Loopback interface
 ifconfig lo up

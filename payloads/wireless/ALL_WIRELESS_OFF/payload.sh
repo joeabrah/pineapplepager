@@ -1,4 +1,5 @@
 #!/bin/bash
+# This payload script disables all interfaces on the device
 
 # Disable Loopback interface
 ifconfig lo down

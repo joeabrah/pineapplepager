@@ -1,9 +1,10 @@
 #!/bin/bash
+# This payload script modifies the firewall settings to allow LAN management access via SSH and Virtual Pager
 
 # Backup the original firewall config
 cp /etc/config/firewall /etc/config/firewall.backup
 
-# Replace the firewall configuration with the new settings to disable it
+# Replace the firewall configuration with the new settings to disable it on the wlan0cli interface
 cp /etc/config/firewall_lan_open /etc/config/firewall
 
 # Restart the firewall
